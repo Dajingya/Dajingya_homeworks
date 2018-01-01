@@ -24,7 +24,12 @@ public class LittleCar extends Car {
 
         super(site);
 
-    }// 这是第一题
+    }
+
+    @Override
+    public void summary() {
+        System.out.println("这是一个小汽车");
+    }
 
     String name = "路虎";
 

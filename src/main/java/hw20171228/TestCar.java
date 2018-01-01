@@ -23,20 +23,11 @@ public class TestCar {
 
     public static void main(String[] args) {
 
-        System.out.println();
         // Car car=new car();---错误
-
-        LittleCar littleCar = new LittleCar(0);
+        Car littleCar = new LittleCar(0);
+        Car bigCar = new BigCar(0);
         littleCar.summary();
-
-        BigCar bigCar = new BigCar(0);
-
-        System.out.println();
-
-        System.out.println();
-        littleCar.Run();
-        System.out.println();
-
+        bigCar.summary();
         System.out.println();
         Huxury hu = new Huxury(0);
         hu.summary();

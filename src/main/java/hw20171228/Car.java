@@ -17,6 +17,13 @@ package hw20171228;
  * @version
  * @see
  */
+// 抽象类不能被实例化，实例化的工作应该有子类完成
+// 抽象方法必须由子类进行重写
+// 只要包含一个抽象方法的抽象类，该方法必须要定义成抽象类，不管是否还包含其他方法
+// 抽象类中可以包含具体的方法，也可以不包含抽象方法
+// 子类中的抽象方法不可以与父类的抽象方法重名
+// abstract不能与final并列修饰同一个类
+// abstract不能与 private、final、Static、native并列修饰同一个方法
 public abstract class Car {
 
     private int site = 4;

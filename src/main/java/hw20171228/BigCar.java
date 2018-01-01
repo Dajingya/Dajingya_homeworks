@@ -25,9 +25,14 @@ public class BigCar extends Car {
 
     }
 
-    private int size;
+    @Override
+    public void summary() {
+        System.out.println("这是一个大卡车");
+    }
 
-    int zuowei() {
+    private int shape;
+
+    int site() {
         return 6;
     }
 
